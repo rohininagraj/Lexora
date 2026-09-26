@@ -1,0 +1,50 @@
+Lexora — AI Legal Assistant
+
+Lexora is an AI-powered legal assistant designed to help users understand legal topics and get answers to common legal questions through a simple chat interface.
+
+Features
+* AI-powered legal Q&A: Ask questions about legal topics and receive AI-generated responses.
+* User-friendly interface: Interact with the assistant through a web-based chat application.
+* Legal information support: Get help understanding legal concepts and procedures.
+* Web application: Built with Python and Flask.
+
+Tech Stack
+* Python
+* Flask
+* Groq API
+* HTML and CSS
+
+Getting Started
+
+1. Clone the repository
+git clone https://github.com/rohininagraj/Lexora.git
+cd Lexora
+
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Configure API keys
+Set up the API keys required by the application as environment variables. Check app.py for the exact variable names.
+Never commit API keys, passwords, or other secrets to GitHub.
+
+4. Run the application
+python app.py
+Open the local address displayed in your terminal in your browser.
+
+Project Structure
+Lexora/
+├── templates/
+│   └── index.html
+├── app.py
+├── requirements.txt
+└── .gitignore
+
+Disclaimer
+Lexora provides general legal information for educational and informational purposes only. Its responses are AI-generated and may be incomplete or inaccurate. It is not a substitute for advice from a qualified lawyer.
+
+Contributors
+* Project owner: Rohini Nagraj
+* Collaborators: Ruthu R
+
+License
+No license has been specified yet. Please check with the project owner before reusing or distributing this project.
